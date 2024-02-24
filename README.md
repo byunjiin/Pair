@@ -27,4 +27,22 @@
 
 **특이사항** : 
 1. 링크 복사의 경우 개인 파일에 맞춰야할 것 같습니다(setCurrentFolderId)
-2. 공통으로 css가 들어가는 부분이 생겨서 어쩔 수 없이 class를 사용하기 위해 Modal.css를 만들었습니다. 내부로 처리할 수 있다면 알려주세욥..
+2. 공통으로 css가 들어가는 부분이 생겨서 어쩔 수 없이 class를 사용하기 위해 Modal.css를 만들었습니다. 내부로 처리할 수 있다면 알려주세욥..# Pair
+9주차 모달창 par programming
+
+### 이지수
+
+**제출한 파일** :
+
+- FolderDeleteModal.jsx, LinkDeleteModal.jsx, close.png
+
+**구조** : 
+
+- FolderDeleteModal.jsx 위치 : [src폴더]
+
+- LinkDeleteModal.jsx 위치 : [src폴더]
+
+- close.png 위치 : [src] 안의 [assets] -> close.png
+
+**특이사항** : 
+1. 폴더명 및 링크는 api에서 받아오시면 됩니다~
