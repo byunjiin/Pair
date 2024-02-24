@@ -10,7 +10,7 @@ const Modal = ({ isOpen, closeModal }) => {
     const host = window.location.origin;
     const shareUrl = `${host}/shared/${currentFolderId}`;
     // 카카오톡 공유 기능 호출
-    window.open(`https://www.kakaotalk.com/sharer?url=${encodeURIComponent(shareUrl)}`);
+    window.open(`https://www.kakaocorp.com/page?url=${encodeURIComponent(shareUrl)}`);
   };
 
   const handleFacebookClick = () => {
