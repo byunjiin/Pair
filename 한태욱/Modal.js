@@ -1,14 +1,16 @@
-import '../styles/css/global.css';
-import modalIconCheck from '../assets/logo/modal-icon-check.svg';
-import closeButton from '../assets/logo/modalClose.jpg';
+import '../styles/css/global.css'; // Global로 선언되어 있는 css요소를 로드해 오시면됩니다.
+import modalIconCheck from '../assets/logo/modal-icon-check.svg'; //해당 위치에 체크 아이콘 버튼을 로드해오면 됩니다.
+import closeButton from '../assets/logo/modalClose.jpg'; //해당 위치에 닫기 버튼을 로드해오면 됩니다.
 import { useState } from 'react';
 
-const Modal = ({ isOpen, closeModal }) => {
-  const [isChecked, setIsChecked] = useState(false);
+// const Modal = ({ isOpen, closeModal }) => {
+//   const [isChecked, setIsChecked] = useState(false);
 
-  const checktoggle = () => {
-    setIsChecked(!isChecked);
-  };
+//   const checktoggle = () => {
+//     setIsChecked(!isChecked);
+//   };
+
+//Toggle 요소는 구현되었으나, 이를 선택에 따라 각각 객체로 선언하여 적용시켜야 합니다.
 
   return (
     <>
@@ -258,7 +260,6 @@ const Modal = ({ isOpen, closeModal }) => {
       </div>
     </>
   );
-};
 
 export default Modal;
 
